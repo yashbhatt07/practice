@@ -1,5 +1,4 @@
 import "./App.css";
-import FetchData from "./Pages/FetchData/FetchData";
 // import Portals from "./Pages/Portals";
 import General from "./Pages/General/General";
 import { BackwardCounter } from "./Pages/hooks/BackwardCounter";
@@ -12,7 +11,6 @@ function App() {
       <General />
       <ForwardCounter />
       <BackwardCounter />
-      <FetchData />
     </>
   );
 }
