@@ -26,7 +26,6 @@ const DispalyData = () => {
       <Button onClick={() => dispatch("add")}>+</Button>
       <Button onClick={() => dispatch("subtract")}>-</Button>
       <Button onClick={() => dispatch("div")}>/</Button>
-      <button onClick={() => setIsValid(true)}>Click here</button>
     </>
   );
 };
